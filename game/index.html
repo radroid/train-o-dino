@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Train-o-Dino</title>
+		<link rel="stylesheet" href="style.css"> 
+	</head>
+	<body>
+		<!-- 
+			Boilerplate to start the basic layout. 
+
+			Making the canvas white will make our work space really obvious.
+		-->
+		<h1>Train-o-Dino!</h1>
+		<canvas id="game" height="200" width="800"></canvas>
+		<p class="controls">press space bar to start</p>
+		<p class="controls">press C to add a Cactus</p>
+		<!-- <button id="addCactus">Add Cactus</button> -->
+
+
+        <script src="js/helpers.js"></script>
+        <script src="js/objects/game-object.js"></script>
+        <script src="js/objects/cactus.js"></script>
+        <script src="js/objects/dinosaur.js"></script>
+        <script src="js/objects/background.js"></script>
+        <script src="js/objects/score.js"></script>
+        <script src="js/game.js"></script>
+        <script>
+        	new Game({
+        		el: document.getElementById("game")
+        	});
+        </script>
+		<!-- <script>
+			localStorage.setItem('addCacti',false);
+			function addCactiBtn(e) {
+			console.log('AddCactiBtn',localStorage.getItem('addCacti'));
+			localStorage.setItem('addCacti',true);
+			console.log('AddCactiBtn',localStorage.getItem('addCacti'));
+		}
+			document.getElementById('addCactus').addEventListener('click', addCactiBtn)
+		</script> -->
+	</body>
+</html>
