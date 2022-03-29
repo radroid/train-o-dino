@@ -170,13 +170,13 @@
 
 			this.removeOldCacti();
 
-			// if(flag == 'true'){
-			// 	this.updateCacti();
-			// 	localStorage.setItem('addCacti',false);				
-			// 	console.log('Step', localStorage.getItem('addCacti'));
-			// }
-			//localStorage.setItem('addCacti',false)
-			//document.getElementById('addCactus').addEventListener('click',this.addCactiBtn);
+			if(flag == 'true'){
+				this.updateCacti();
+				localStorage.setItem('addCacti',false);				
+				console.log('Step', localStorage.getItem('addCacti'));
+			}
+			localStorage.setItem('addCacti',false)
+			document.getElementById('addCactus').addEventListener('click',this.addCactiBtn);
 			this.updateCacti();
 
 			if (!this.player.isJumping(this.offset) && spacePressed) {
