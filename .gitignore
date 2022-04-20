@@ -129,3 +129,16 @@ dmypy.json
 .pyre/
 docs/.DS_Store
 .DS_Store
+assets/first_run.gif
+assets/no_ducking_game_over_caption.gif
+assets/no_ducking_game_over.gif
+assets/preprocessing-step1.png
+assets/preprocessing-step2.png
+assets/preprocessing-step3.png
+assets/TF-rex-arch-1.png
+assets/TF-rex-arch-1.svg
+assets/TF-rex-arch-2.png
+assets/TF-rex-arch-2.svg
+docs/ppt/~$Final Presentation.pptx
+game-manual/.vscode/launch.json
+trained-model/

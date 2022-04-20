@@ -1,2 +1,5 @@
-# Dinosaur-Chrome-Game
-A step by step clone of how to build the Dinosaur game found on Chrome No Internet Screen.
+## t-rex-runner
+
+The trex runner game extracted from chrome offline err page.
+
+http://wayou.github.io/t-rex-runner/
